@@ -5,6 +5,9 @@ let boardArray = [
     ['', '', ''],
     ['', '', '']
 ]
+xScore = 0;
+oScore = 0;
+tieScore = 0;
 
 function checkTurn(){
     if(counter % 2 == 0){
@@ -66,15 +69,43 @@ function addToBoard(num){
         }
         console.log(boardArray);
     }
+
+    updateBoard();
 }
 
 
 function restartFunction(){
     console.log('reset board');
+    counter = -1;
+    playerTurn = 'X';
     boardArray = [
         ['', '', ''],
         ['', '', ''],
         ['', '', '']
     ]
+    for(let x = 0; x < 3; x++){
+        for(let y = 0; y < 3; y++){
+            document.getElementById(`X${x}${y}`).style.visibility = 'hidden';
+            document.getElementById(`O${x}${y}`).style.visibility = 'hidden';
+        }
+    }
     console.log(boardArray);
+}
+
+function updateBoard(){
+    for(let x = 0; x < 3; x++){
+        for(let y = 0; y < 3; y++){
+            if(boardArray[x][y] === 'X'){
+                document.getElementById(`X${x}${y}`).style.visibility = 'visible';
+            }
+            if(boardArray[x][y] === 'O'){
+                document.getElementById(`O${x}${y}`).style.visibility = 'visible';
+            }
+        }
+    }
+    checkWinner();
+}
+
+function checkWinner(){
+
 }
