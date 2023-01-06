@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tic Tac Toe</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+        <h1>Welcome to Tic Tac Toe</h1>
+
+        <div class="container">
+          <img id = "board" src="img/board.jpg" alt = "board"></img>
+          <button onclick="addToBoard(0)" class = "button" id="btn0"> </button>
+          <button onclick="addToBoard(1)" class = "button" id="btn1"> </button>
+          <button onclick="addToBoard(2)" class = "button" id="btn2"> </button>
+          <button onclick="addToBoard(3)" class = "button" id="btn3"> </button>
+          <button onclick="addToBoard(4)" class = "button" id="btn4"> </button>
+          <button onclick="addToBoard(5)" class = "button" id="btn5"> </button>
+          <button onclick="addToBoard(6)" class = "button" id="btn6"> </button>
+          <button onclick="addToBoard(7)" class = "button" id="btn7"> </button>
+          <button onclick="addToBoard(8)" class = "button" id="btn8"> </button>
+
+        </div>
+
+        <div class="X">
+          
+        </div>
+
+        <button onclick="restartFunction()" id="restart">Restart</button>
+
+        <div class="scoreText">
+          <p id="scoreMain"><u>Score</u></p>
+          <p>X:</p>
+          <p>O:</p>
+          <p>Tie:</p>
+        </div>
+
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

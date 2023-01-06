@@ -1,0 +1,140 @@
+body {
+    color: #fff;
+    font-size: 1em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #42b4d6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.container {
+    position: relative;
+}
+
+.container #board {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+}
+
+.container .button {
+    background-color: white; 
+    color: black; 
+    /* border: 2px solid #008CBA; */
+    border: none;
+    cursor: pointer;
+    padding: 95px 95px;
+    border-radius: 20px;
+}
+
+#btn0 {
+    position: absolute;
+    top: 18%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#btn1 {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#btn2 {
+    position: absolute;
+    top: 18%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#btn3 {
+    position: absolute;
+    top: 50%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#btn4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#btn5 {
+    position: absolute;
+    top: 50%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#btn6 {
+    position: absolute;
+    top: 82.5%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#btn7 {
+    position: absolute;
+    top: 82.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#btn8 {
+    position: absolute;
+    top: 82.5%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container .button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#restart {
+    margin: 0;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 17.5px 35px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.scoreText {
+    position: fixed;
+    top: 150px;
+    left: 45px;
+    font-size: 25px;
+}
+
+#scoreMain {
+    position: fixed;
+    top: 50px;
+    left: 125px;
+    font-size: 40px;
+}
