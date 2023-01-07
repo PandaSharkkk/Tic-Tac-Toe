@@ -20,51 +20,47 @@ function checkTurn(){
 function addToBoard(num){
     counter++;
     checkTurn();
-    console.log(num);
-    console.log(playerTurn);
-    console.log(counter);
 
     if(playerTurn === 'X'){
-        if(num === 0){
+        if(num === 0 && boardArray[0][0] === ''){
             boardArray[0][0] = 'X';
-        } else if(num === 1){
+        } else if(num === 1 && boardArray[0][1] === ''){
             boardArray[0][1] = 'X';
-        } else if(num === 2){
+        } else if(num === 2 && boardArray[0][2] === ''){
             boardArray[0][2] = 'X';
-        } else if(num === 3){
+        } else if(num === 3 && boardArray[1][0] === ''){
             boardArray[1][0] = 'X';
-        } else if(num === 4){
+        } else if(num === 4 && boardArray[1][1] === ''){
             boardArray[1][1] = 'X';
-        } else if(num === 5){
+        } else if(num === 5 && boardArray[1][2] === ''){
             boardArray[1][2] = 'X';
-        } else if(num === 6){
+        } else if(num === 6 && boardArray[2][0] === ''){
             boardArray[2][0] = 'X';
-        } else if(num === 7){
+        } else if(num === 7 && boardArray[2][1] === ''){
             boardArray[2][1] = 'X';
-        } else if(num === 8){
+        } else if(num === 8 && boardArray[2][2] === ''){
             boardArray[2][2] = 'X';
         }
-        console.log(boardArray);
     }
 
     if(playerTurn === 'O'){
-        if(num === 0){
+        if(num === 0 && boardArray[0][0] === ''){
             boardArray[0][0] = 'O';
-        } else if(num === 1){
+        } else if(num === 1 && boardArray[0][1] === ''){
             boardArray[0][1] = 'O';
-        } else if(num === 2){
+        } else if(num === 2 && boardArray[0][2] === ''){
             boardArray[0][2] = 'O';
-        } else if(num === 3){
+        } else if(num === 3 && boardArray[1][0] === ''){
             boardArray[1][0] = 'O';
-        } else if(num === 4){
+        } else if(num === 4 && boardArray[1][1] === ''){
             boardArray[1][1] = 'O';
-        } else if(num === 5){
+        } else if(num === 5 && boardArray[1][2] === ''){
             boardArray[1][2] = 'O';
-        } else if(num === 6){
+        } else if(num === 6 && boardArray[2][0] === ''){
             boardArray[2][0] = 'O';
-        } else if(num === 7){
+        } else if(num === 7 && boardArray[2][1] === ''){
             boardArray[2][1] = 'O';
-        } else if(num === 8){
+        } else if(num === 8 && boardArray[2][2] === ''){
             boardArray[2][2] = 'O';
         }
         console.log(boardArray);
