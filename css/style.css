@@ -7,18 +7,18 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 300%;
 }
 
 .container {
-  position: relative;
+  position: fixed;
 }
 
 .container #board {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 3%;
   width: 50%;
   height: 50%;
   border-radius: 50px;
@@ -36,7 +36,7 @@ h1 {
 
 #btn0 {
   position: absolute;
-  top: 18%;
+  top: 23%;
   left: 37.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -44,7 +44,7 @@ h1 {
 
 #btn1 {
   position: absolute;
-  top: 18%;
+  top: 23%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -52,7 +52,7 @@ h1 {
 
 #btn2 {
   position: absolute;
-  top: 18%;
+  top: 23%;
   left: 62.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -60,7 +60,7 @@ h1 {
 
 #btn3 {
   position: absolute;
-  top: 50%;
+  top: 51.5%;
   left: 37.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -68,7 +68,7 @@ h1 {
 
 #btn4 {
   position: absolute;
-  top: 50%;
+  top: 51.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -76,7 +76,7 @@ h1 {
 
 #btn5 {
   position: absolute;
-  top: 50%;
+  top: 51.5%;
   left: 62.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -84,7 +84,7 @@ h1 {
 
 #btn6 {
   position: absolute;
-  top: 82.5%;
+  top: 80.5%;
   left: 37.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -92,7 +92,7 @@ h1 {
 
 #btn7 {
   position: absolute;
-  top: 82.5%;
+  top: 80.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -100,7 +100,7 @@ h1 {
 
 #btn8 {
   position: absolute;
-  top: 82.5%;
+  top: 80.5%;
   left: 62.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -127,27 +127,28 @@ h1 {
 
 .scoreText {
   position: fixed;
-  top: 150px;
-  left: 45px;
-  font-size: 25px;
+  top: 17.5%;
+  left: 3.5%;
+  font-size: 150%;
 }
 
 #scoreMain {
   position: fixed;
-  top: 50px;
-  left: 125px;
+  top: 6%;
+  left: 7%;
   font-size: 40px;
 }
 
 .X {
     display: block;
     border-radius: 5px;
+    width: 6.5%;
 }
 
 #X00 {
     position: absolute;
-    top: 29.5%;
-    left: 37.75%;
+    top: 23%;
+    left: 37.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     visibility: hidden;
@@ -155,7 +156,7 @@ h1 {
 
 #X01 {
     position: absolute;
-    top: 29.5%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -164,8 +165,8 @@ h1 {
 
 #X02 {
     position: absolute;
-    top: 29.5%;
-    left: 62.35%;
+    top: 23%;
+    left: 62.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     visibility: hidden;
@@ -173,8 +174,8 @@ h1 {
 
 #X10 {
     position: absolute;
-    top: 54%;
-    left: 37.75%;
+    top: 51.5%;
+    left: 37.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     visibility: hidden;
@@ -182,7 +183,7 @@ h1 {
 
 #X11 {
     position: absolute;
-    top: 54%;
+    top: 51.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -191,8 +192,8 @@ h1 {
 
 #X12 {
     position: absolute;
-    top: 54%;
-    left: 62.35%;
+    top: 51.5%;
+    left: 62.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     visibility: hidden;
@@ -200,8 +201,8 @@ h1 {
 
 #X20 {
     position: absolute;
-    top: 79.5%;
-    left: 37.75%;
+    top: 80.5%;
+    left: 37.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     visibility: hidden;
@@ -209,7 +210,7 @@ h1 {
 
 #X21 {
     position: absolute;
-    top: 79.5%;
+    top: 80.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -218,96 +219,96 @@ h1 {
 
 #X22 {
     position: absolute;
-    top: 79.5%;
-    left: 62.35%;
+    top: 80.5%;
+    left: 62.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     visibility: hidden;
 }
 
 .O {
-    display: block;
-    visibility: hidden;
-    border-radius: 5px;
+  display: block;
+  border-radius: 5px;
+  width: 6.5%;
 }
 
 #O00 {
-    position: absolute;
-    top: 29.5%;
-    left: 37.75%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    visibility: hidden;
+  position: absolute;
+  top: 23%;
+  left: 37.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  visibility: hidden;
 }
 
 #O01 {
-    position: absolute;
-    top: 29.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    visibility: hidden;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  visibility: hidden;
 }
 
 #O02 {
-    position: absolute;
-    top: 29.5%;
-    left: 62.35%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    visibility: hidden;
+  position: absolute;
+  top: 23%;
+  left: 62.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  visibility: hidden;
 }
 
 #O10 {
-    position: absolute;
-    top: 54%;
-    left: 37.75%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    visibility: hidden;
+  position: absolute;
+  top: 51.5%;
+  left: 37.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  visibility: hidden;
 }
 
 #O11 {
-    position: absolute;
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    visibility: hidden;
+  position: absolute;
+  top: 51.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  visibility: hidden;
 }
 
 #O12 {
-    position: absolute;
-    top: 54%;
-    left: 62.35%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    visibility: hidden;
+  position: absolute;
+  top: 51.5%;
+  left: 62.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  visibility: hidden;
 }
 
 #O20 {
-    position: absolute;
-    top: 79.5%;
-    left: 37.75%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    visibility: hidden;
+  position: absolute;
+  top: 80.5%;
+  left: 37.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  visibility: hidden;
 }
 
 #O21 {
-    position: absolute;
-    top: 79.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    visibility: hidden;
+  position: absolute;
+  top: 80.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  visibility: hidden;
 }
 
 #O22 {
-    position: absolute;
-    top: 79.5%;
-    left: 62.35%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    visibility: hidden;
+  position: absolute;
+  top: 80.5%;
+  left: 62.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  visibility: hidden;
 }
